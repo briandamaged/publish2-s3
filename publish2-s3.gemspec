@@ -11,6 +11,8 @@ Gem::Specification.new do |s|
   s.files       = Dir["lib/**/*.rb"]
   s.license     = "MIT"
 
-  s.add_dependency "publish2", '~> 1.0.0.alpha'
+  s.add_dependency "publish2", '= 1.0.0.alpha.1'
+
+  s.add_dependency 'aws-sdk-resources', '~> 2.0', '>= 2.0.45'
 end
 

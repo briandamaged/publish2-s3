@@ -3,7 +3,7 @@ require 'publish2'
 
 module Publish2::Backends
 
-  class S3 < Publish2::Backends::Backend
+  class S3 < Publish2::Backends::Base
 
     attr_reader :bucket, :url_params
 
